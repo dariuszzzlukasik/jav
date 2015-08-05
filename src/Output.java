@@ -18,5 +18,16 @@ public class Output {
 		}
 
 	}
+	
+	
+	
+	private int getMax(int tab[]){
+		int max=tab[0];
+		for(int i=1; i<tab.length-1; i++)
+		if(max<tab[i])max=tab[i];
+			
+		return max;
+	
+	}
 
 }
