@@ -31,3 +31,6 @@ public class Output {
 	}
 
 }
+class nowa{
+	
+}
